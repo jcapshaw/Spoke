@@ -1,0 +1,213 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "test": {
+      "name": "test",
+      "command": "yarn test"
+    },
+    "test-watch": {
+      "name": "test-watch",
+      "command": "yarn test-watch"
+    },
+    "test-cache": {
+      "name": "test-cache",
+      "command": "yarn test-cache"
+    },
+    "test-rediscache": {
+      "name": "test-rediscache",
+      "command": "yarn test-rediscache"
+    },
+    "test-rediscache-contactcache": {
+      "name": "test-rediscache-contactcache",
+      "command": "yarn test-rediscache-contactcache"
+    },
+    "test-cypress": {
+      "name": "test-cypress",
+      "command": "yarn test-cypress"
+    },
+    "test-sqlite": {
+      "name": "test-sqlite",
+      "command": "yarn test-sqlite"
+    },
+    "test-coverage": {
+      "name": "test-coverage",
+      "command": "yarn test-coverage"
+    },
+    "test-coverage-bothbackends": {
+      "name": "test-coverage-bothbackends",
+      "command": "yarn test-coverage-bothbackends"
+    },
+    "knex": {
+      "name": "knex",
+      "command": "yarn knex"
+    },
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean"
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint"
+    },
+    "process-message-csv": {
+      "name": "process-message-csv",
+      "command": "yarn process-message-csv"
+    },
+    "prod-build-client": {
+      "name": "prod-build-client",
+      "command": "yarn prod-build-client"
+    },
+    "prod-maybe-build-client": {
+      "name": "prod-maybe-build-client",
+      "command": "yarn prod-maybe-build-client"
+    },
+    "prod-build-server": {
+      "name": "prod-build-server",
+      "command": "yarn prod-build-server"
+    },
+    "prod-build": {
+      "name": "prod-build",
+      "command": "yarn prod-build"
+    },
+    "prod-static-upload": {
+      "name": "prod-static-upload",
+      "command": "yarn prod-static-upload"
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "yarn postinstall"
+    },
+    "xpostinstall": {
+      "name": "xpostinstall",
+      "command": "yarn xpostinstall"
+    },
+    "notify-slack": {
+      "name": "notify-slack",
+      "command": "yarn notify-slack"
+    },
+    "install-config-file": {
+      "name": "install-config-file",
+      "command": "yarn install-config-file"
+    },
+    "install-prebuilt-assets": {
+      "name": "install-prebuilt-assets",
+      "command": "yarn install-prebuilt-assets"
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start"
+    },
+    "start:heroku": {
+      "name": "start:heroku",
+      "command": "yarn start:heroku"
+    },
+    "start:test": {
+      "name": "start:test",
+      "command": "yarn start:test"
+    },
+    "start:test-babel": {
+      "name": "start:test-babel",
+      "command": "yarn start:test-babel"
+    },
+    "dev-heroku-dispatch": {
+      "name": "dev-heroku-dispatch",
+      "command": "yarn dev-heroku-dispatch"
+    },
+    "prod-heroku-dispatch": {
+      "name": "prod-heroku-dispatch",
+      "command": "yarn prod-heroku-dispatch"
+    },
+    "dev-message-sender-01": {
+      "name": "dev-message-sender-01",
+      "command": "yarn dev-message-sender-01"
+    },
+    "prod-message-sender-01": {
+      "name": "prod-message-sender-01",
+      "command": "yarn prod-message-sender-01"
+    },
+    "dev-message-sender-234": {
+      "name": "dev-message-sender-234",
+      "command": "yarn dev-message-sender-234"
+    },
+    "prod-message-sender-234": {
+      "name": "prod-message-sender-234",
+      "command": "yarn prod-message-sender-234"
+    },
+    "dev-message-sender-56": {
+      "name": "dev-message-sender-56",
+      "command": "yarn dev-message-sender-56"
+    },
+    "prod-message-sender-56": {
+      "name": "prod-message-sender-56",
+      "command": "yarn prod-message-sender-56"
+    },
+    "dev-message-sender-789": {
+      "name": "dev-message-sender-789",
+      "command": "yarn dev-message-sender-789"
+    },
+    "prod-message-sender-789": {
+      "name": "prod-message-sender-789",
+      "command": "yarn prod-message-sender-789"
+    },
+    "dev-job-handler": {
+      "name": "dev-job-handler",
+      "command": "yarn dev-job-handler"
+    },
+    "prod-job-handler": {
+      "name": "prod-job-handler",
+      "command": "yarn prod-job-handler"
+    },
+    "dev-incoming-message-handler": {
+      "name": "dev-incoming-message-handler",
+      "command": "yarn dev-incoming-message-handler"
+    },
+    "prod-incoming-message-handler": {
+      "name": "prod-incoming-message-handler",
+      "command": "yarn prod-incoming-message-handler"
+    },
+    "predev-start": {
+      "name": "predev-start",
+      "command": "yarn predev-start"
+    },
+    "dev-start": {
+      "name": "dev-start",
+      "command": "yarn dev-start"
+    },
+    "dev-start-debug": {
+      "name": "dev-start-debug",
+      "command": "yarn dev-start-debug"
+    },
+    "generate-contacts": {
+      "name": "generate-contacts",
+      "command": "yarn generate-contacts"
+    },
+    "jest-test": {
+      "name": "jest-test",
+      "command": "yarn jest-test"
+    },
+    "dev": {
+      "name": "dev",
+      "command": "yarn dev",
+      "runAtStart": true,
+      "preview": {
+        "port": 8090
+      }
+    },
+    "debug-server": {
+      "name": "debug-server",
+      "command": "yarn debug-server"
+    },
+    "buy-numbers": {
+      "name": "buy-numbers",
+      "command": "yarn buy-numbers"
+    }
+  }
+}

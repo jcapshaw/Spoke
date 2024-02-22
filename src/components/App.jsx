@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import React, { useState } from "react";
-import { ThemeProvider } from "@material-ui/core/styles";
-import { createMuiTheme } from "@material-ui/core/styles";
+import { ThemeProvider, createTheme } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
 import { defaultTheme } from "../styles/mui-theme";
@@ -19,7 +18,7 @@ const formatTheme = newTheme => {
   };
 };
 
-const App = ({ children }) => {
+function App({ children }) {
   const [theme, setTheme] = useState(defaultTheme);
   let muiTheme = createMuiTheme(defaultTheme);
   try {
@@ -50,7 +49,7 @@ const App = ({ children }) => {
       </ThemeProvider>
     </ThemeContext.Provider>
   );
-};
+}
 
 App.propTypes = {
   children: PropTypes.object
